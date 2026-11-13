@@ -1,0 +1,646 @@
+{
+  "pbtResults": {
+    "3.2 `calcScore` のプロパティテストを書く": {
+      "status": "passed",
+      "lastRunTimestamp": 1794384878261
+    },
+    "3.3 `evaluationTier` のプロパティテストを書く": {
+      "status": "passed",
+      "lastRunTimestamp": 1794384935097
+    },
+    "2.2 `validateQuestion` のプロパティテストを書く": {
+      "status": "passed",
+      "lastRunTimestamp": 1794385003825
+    },
+    "4.2 Property 1 のプロパティテストを書く": {
+      "status": "passed",
+      "lastRunTimestamp": 1794385470288
+    },
+    "4.5 Property 4 のプロパティテストを書く": {
+      "status": "passed",
+      "lastRunTimestamp": 1794385609222
+    },
+    "4.7 Property 8 のプロパティテストを書く": {
+      "status": "passed",
+      "lastRunTimestamp": 1794386088036
+    },
+    "5.5 Property 12 のプロパティテストを書く": {
+      "status": "passed",
+      "lastRunTimestamp": 1794386315462
+    }
+  },
+  "executionHistory": {
+    "1.1 テスト環境の設定ファイルを作成する": [
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794380101499
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794380117295
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794381622346
+      }
+    ],
+    "1.2 `index.html` と CSS 3 ファイルの骨格を作成する": [
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794380101602
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794380118081
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794381622505
+      }
+    ],
+    "2.1 `js/validator.js` を実装する": [
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794380105101
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794381656665
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794382140294
+      }
+    ],
+    "3.1 `js/scoring.js` を実装する": [
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794380105188
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794381657465
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794382140499
+      }
+    ],
+    "4.1 `js/session.js` を実装する": [
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794380105273
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794381658038
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794382141231
+      }
+    ],
+    "5.1 `js/storage.js` を実装する": [
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794380105341
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794381658818
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794382141801
+      }
+    ],
+    "5.2 `js/history.js` を実装する": [
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794380105415
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794382152907
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794382953077
+      }
+    ],
+    "6. Checkpoint - ロジック層の確認": [
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794380105478
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794384095031
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794384335716
+      }
+    ],
+    "7.1 `data/questions.js` の初期化と問題データ追記方式を作成する": [
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794380105548
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794380118761
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794381651117
+      }
+    ],
+    "7.2 Beginner(AWS初心者)の問題 30 問を省略なしで作成する": [
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794380105626
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794382152537
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794382953354
+      }
+    ],
+    "7.3 Basic(基礎だけわかる初級者)の問題 30 問を省略なしで作成する": [
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794380105702
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794382152681
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794382953476
+      }
+    ],
+    "7.4 Intermediate(中級エンジニア向け)の問題 30 問を省略なしで作成する": [
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794380105775
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794382152797
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794382953913
+      }
+    ],
+    "7.5 実データのスモークテストを書く": [
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794380105845
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794382971274
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794383539636
+      }
+    ],
+    "8.1 `js/ui/focus.js` を実装する": [
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794380106109
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794381659312
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794382140110
+      }
+    ],
+    "8.2 `js/ui/top-screen.js` を実装する": [
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794380106200
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794382971397
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794383538589
+      }
+    ],
+    "8.3 `js/ui/quiz-screen.js` を実装する": [
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794380106298
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794382971555
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794383538753
+      }
+    ],
+    "8.4 `js/ui/result-screen.js` を実装する": [
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794380106382
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794382971801
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794383539042
+      }
+    ],
+    "8.5 `js/main.js` と `index.html` を配線する": [
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794380106462
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794383547947
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794383850591
+      }
+    ],
+    "9.3 `README.md` を作成する": [
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794380106545
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794383858981
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794384085562
+      }
+    ],
+    "10. Final checkpoint - 全体の確認": [
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794380106625
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794384340583
+      },
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794384552489
+      }
+    ],
+    "1. プロジェクト基盤の構築": [
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794381622588
+      }
+    ],
+    "2. 問題データ検証ロジック(validator.js)": [
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794382140380
+      }
+    ],
+    "3. 採点ロジック(scoring.js)": [
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794382140609
+      }
+    ],
+    "4. セッション管理(session.js)": [
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794382141306
+      }
+    ],
+    "5. 永続化と履歴(storage.js / history.js)": [
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794382953215
+      }
+    ],
+    "7. 問題データ(90 問)の作成": [
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794383539762
+      }
+    ],
+    "8. UI 層と起動処理": [
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794383850709
+      }
+    ],
+    "9. 静的構成・配色の検査と文書化": [
+      {
+        "executionId": "1a01e49a-9a1f-4943-a80f-b3853ff594b1",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794384085698
+      }
+    ],
+    "2.2 `validateQuestion` のプロパティテストを書く": [
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794384768206
+      },
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794385146687
+      }
+    ],
+    "2.3 `validateQuestionBank` のプロパティテストを書く": [
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794384768382
+      },
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794385146852
+      }
+    ],
+    "3.2 `calcScore` のプロパティテストを書く": [
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794384768814
+      },
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794385146984
+      }
+    ],
+    "3.3 `evaluationTier` のプロパティテストを書く": [
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794384769628
+      },
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794385147485
+      }
+    ],
+    "3.4 scoring の例示ユニットテストを書く": [
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794384770171
+      },
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794385148292
+      }
+    ],
+    "4.2 Property 1 のプロパティテストを書く": [
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794385156302
+      },
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794385871642
+      }
+    ],
+    "4.3 Property 2 のプロパティテストを書く": [
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794385157014
+      },
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794385872154
+      }
+    ],
+    "4.4 Property 3 のプロパティテストを書く": [
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794385157494
+      },
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794385872938
+      }
+    ],
+    "4.5 Property 4 のプロパティテストを書く": [
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794385158291
+      },
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794385873692
+      }
+    ],
+    "4.6 Property 5 のプロパティテストを書く": [
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794385158867
+      },
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794385874344
+      }
+    ],
+    "4.7 Property 8 のプロパティテストを書く": [
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794385883506
+      },
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794386434566
+      }
+    ],
+    "4.8 Property 9 のプロパティテストを書く": [
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794385884140
+      },
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794386434718
+      }
+    ],
+    "5.3 Property 10 のプロパティテストを書く": [
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794385884938
+      },
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794386435010
+      }
+    ],
+    "5.4 Property 11 のプロパティテストを書く": [
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794385885445
+      },
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794386435809
+      }
+    ],
+    "5.5 Property 12 のプロパティテストを書く": [
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794385886188
+      },
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794386436253
+      }
+    ],
+    "8.6 UI の例示ユニットテスト(jsdom)を書く": [
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794386441974
+      },
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794387348630
+      }
+    ],
+    "9.1 静的構成のスモークテストを書く": [
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794386442575
+      },
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794387346363
+      }
+    ],
+    "9.2 配色トークンのコントラスト検算テストを書く": [
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794386443291
+      },
+      {
+        "executionId": "69284795-7914-4d88-83cb-3b4a36044651",
+        "chatSessionId": "sess_48d931bb-2655-4f95-a8c5-c7133bbd63e5",
+        "timestamp": 1794387347177
+      }
+    ]
+  }
+}

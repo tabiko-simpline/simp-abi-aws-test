@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AWS クイズ</title>
+  <!-- すべて ./ 起点の相対パス。読み込み失敗は main.js が検知してエラー表示する -->
+  <link rel="stylesheet" href="./css/tokens.css" onerror="(window.__loadErrors=window.__loadErrors||[]).push('./css/tokens.css')">
+  <link rel="stylesheet" href="./css/base.css" onerror="(window.__loadErrors=window.__loadErrors||[]).push('./css/base.css')">
+  <link rel="stylesheet" href="./css/components.css" onerror="(window.__loadErrors=window.__loadErrors||[]).push('./css/components.css')">
+</head>
+<body>
+  <header class="app-header">
+    <p class="app-header__title"><strong>AWS クイズ</strong></p>
+  </header>
+
+  <main class="app-main">
+    <!-- 通知領域: 致命的エラーは role="alert"、情報は role="status" -->
+    <div id="app-alert" class="notice notice--error" role="alert"></div>
+    <div id="app-status" class="notice" role="status"></div>
+
+    <noscript>
+      <p class="notice notice--error">このアプリを利用するには JavaScript を有効にしてください。</p>
+    </noscript>
+
+    <!-- Top 画面 -->
+    <section id="top-screen" class="screen" aria-labelledby="top-heading">
+      <h1 id="top-heading" tabindex="-1">AWS クイズ</h1>
+      <p class="muted">難易度を選んで、4 択クイズに挑戦しましょう。</p>
+      <div id="difficulty-list" class="card-list"></div>
+      <div id="history-area"></div>
+    </section>
+
+    <!-- Quiz 画面 -->
+    <section id="quiz-screen" class="screen" aria-labelledby="quiz-heading" hidden>
+      <h2 id="quiz-heading" tabindex="-1">クイズ</h2>
+      <div class="quiz-meta">
+        <span id="quiz-progress"></span>
+        <span id="quiz-correct-count"></span>
+      </div>
+      <p id="quiz-question" class="quiz-question"></p>
+      <div id="quiz-choices" class="choice-list"></div>
+      <!-- 判定と解説: 判定確定と同時に挿入し、支援技術へ通知する -->
+      <div id="feedback" class="feedback" role="status" aria-live="polite"></div>
+      <div id="quiz-actions" class="button-group"></div>
+    </section>
+
+    <!-- Result 画面 -->
+    <section id="result-screen" class="screen" aria-labelledby="result-heading" hidden>
+      <h2 id="result-heading" tabindex="-1">結果発表</h2>
+      <div id="result-score"></div>
+      <p id="result-comment"></p>
+      <div id="result-message"></div>
+      <div id="result-actions" class="button-group"></div>
+    </section>
+  </main>
+
+  <!-- classic script(ES モジュール形式は file:// で動かないため不使用)。依存順に末尾で読み込む -->
+  <script src="./data/questions.js" onerror="(window.__loadErrors=window.__loadErrors||[]).push('./data/questions.js')"></script>
+  <script src="./data/questions-beginner.js" onerror="(window.__loadErrors=window.__loadErrors||[]).push('./data/questions-beginner.js')"></script>
+  <script src="./data/questions-basic.js" onerror="(window.__loadErrors=window.__loadErrors||[]).push('./data/questions-basic.js')"></script>
+  <script src="./data/questions-intermediate.js" onerror="(window.__loadErrors=window.__loadErrors||[]).push('./data/questions-intermediate.js')"></script>
+  <script src="./js/validator.js" onerror="(window.__loadErrors=window.__loadErrors||[]).push('./js/validator.js')"></script>
+  <script src="./js/scoring.js" onerror="(window.__loadErrors=window.__loadErrors||[]).push('./js/scoring.js')"></script>
+  <script src="./js/session.js" onerror="(window.__loadErrors=window.__loadErrors||[]).push('./js/session.js')"></script>
+  <script src="./js/storage.js" onerror="(window.__loadErrors=window.__loadErrors||[]).push('./js/storage.js')"></script>
+  <script src="./js/history.js" onerror="(window.__loadErrors=window.__loadErrors||[]).push('./js/history.js')"></script>
+  <script src="./js/ui/focus.js" onerror="(window.__loadErrors=window.__loadErrors||[]).push('./js/ui/focus.js')"></script>
+  <script src="./js/ui/top-screen.js" onerror="(window.__loadErrors=window.__loadErrors||[]).push('./js/ui/top-screen.js')"></script>
+  <script src="./js/ui/quiz-screen.js" onerror="(window.__loadErrors=window.__loadErrors||[]).push('./js/ui/quiz-screen.js')"></script>
+  <script src="./js/ui/result-screen.js" onerror="(window.__loadErrors=window.__loadErrors||[]).push('./js/ui/result-screen.js')"></script>
+  <script src="./js/main.js" onerror="(window.__loadErrors=window.__loadErrors||[]).push('./js/main.js')"></script>
+</body>
+</html>

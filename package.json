@@ -1,0 +1,14 @@
+{
+  "name": "aws-quiz-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "社内研修用 AWS クイズ Web アプリ(テスト専用の開発依存のみ。実行時に npm install は不要)",
+  "scripts": {
+    "test": "vitest --run"
+  },
+  "devDependencies": {
+    "fast-check": "4.10.2",
+    "jsdom": "31.0.0",
+    "vitest": "5.1.0"
+  }
+}
